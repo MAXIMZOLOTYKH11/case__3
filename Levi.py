@@ -10,7 +10,7 @@ def levi(l, n):
 
 
 def main():
-    l = int(input())
+    l = int(input('Длина стороны:'))
     n = int(input('Глубина рекурсии:'))
     levi(l, n)
     speed(100)

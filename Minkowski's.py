@@ -13,7 +13,7 @@ def g(l, n):
 
 
 def main():
-    l = int(input())
+    l = int(input('Длина стороны:'))
     n = int(input('Глубина рекурсии:'))
     g(l, n)
     mainloop()

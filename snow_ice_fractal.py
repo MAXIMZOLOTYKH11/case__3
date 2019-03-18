@@ -18,7 +18,7 @@ def f(d, n):
 
 
 def main():
-    d = int(input())
+    d = int(input('Длина стороны:'))
     n = int(input('Глубина рекурсии:'))
     speed(80)
     up()

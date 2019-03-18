@@ -13,8 +13,8 @@ def tree(h, y, n):
 
 
 def main():
-    h = int(input())
-    y = int(input())
+    h = int(input('Длина ветки:'))
+    y = int(input('Угол ветки:'))
     n = int(input('Глубина рекурсии:'))
     up()
     goto(0, -100)

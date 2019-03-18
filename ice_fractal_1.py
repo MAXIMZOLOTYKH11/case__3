@@ -17,7 +17,7 @@ def main():
     up()
     goto(-300, 0)
     down()
-    d = int(input())
+    d = int(input('Длина стороны:'))
     n = int(input('Глубина рекурсии:'))
     frag(d, n)
     mainloop()

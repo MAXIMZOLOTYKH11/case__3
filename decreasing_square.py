@@ -15,7 +15,7 @@ def k(d,n):
 
 
 def main():
-    d = int(input())
+    d = int(input('Длина стороны:'))
     n = int(input('Глубина рекурсии:'))
     k(d,n)
 
